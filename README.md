@@ -1,6 +1,7 @@
 # PaaS platform operator
 
-A meta operator, built with [kubebuilder](https://book.kubebuilder.io)/
+Study project for the development and hosting of a Kubernetes native cloud API that starts with
+a meta operator, built with [kubebuilder](https://book.kubebuilder.io)/
 `controller-runtime`, that fronts other operators' large CRDs with small,
 opinionated ones of our own. Each vendor gets its own thin CRD under
 `paas.cncp.nl/v1alpha1` — currently `PostgresCluster` (for
